@@ -1,0 +1,65 @@
+Text file demonstrating How To:
+
+Notes from 
+
+
+            Monday, March 11
+
+Python
+
+int
+string
+float
+
+Asterisk in the In [*] means that code is still running--meaning it has not exited function yet.
+
+
+Lists work with square [val 1, val 2, val 3]
+                          0       1      2
+                          
+
+for (item) in [container/list] do (something)
+
+DICTIONARY
+
+{key : value, key : value, key : value}   #Squiggly brackets
+.keys()
+.values()
+.items()
+
+Three different referrents to data.    .items() is inclusive of both .keys() and .values()
+
+
+Note on Importing Libraries (np and pd). Loads into "kernel," (although I am unsure which sense this kernel exists in...what)
+   
+   import [library] as [alias]
+   
+   
+   Mean, Median, Mode (measures of central tendancy)
+   
+   
+
+
+
+                Tuesday, March 12
+                
+       (name).loc[(name)['Column'] == (value)] 
+       #the double = sign means "where it is" rather than acting as an alias assignment
+       
+       
+       same with 
+       (name).loc[(name)['Column' <= (value)] 
+       #values less than (value) could also use of course >
+       
+      
+   
+       #df.drop_duplicates(inplace=True)  
+        #This will remove your duplicates from the ORIGINAL source. 
+        #DO NOT RECOMMEND running.
+        
+        
+ 
+        
+        
+        
+
